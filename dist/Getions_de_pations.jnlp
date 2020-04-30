@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Getions_de_pations.jnlp">
+  <information>
+    <title>Getions_de_pations</title>
+    <vendor>madridista</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Getions_de_pations.jar" size="1664087" download="eager" />
+    <jar href="lib/fontawesomefx-8.9.jar" size="571068" download="eager" />
+    <jar href="lib/jfoenix-8.0.4.jar" size="2487326" download="eager" />
+    <jar href="lib/mysql-connector.jar" size="397032" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Getions_de_pations" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="getions_de_pations.Getions_de_pations"  name="Getions_de_pations" />
+  <update check="always"/>
+</jnlp>
